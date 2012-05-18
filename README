@@ -3,6 +3,23 @@ SC-RUNTIME
 A simple way of requiring SC for node projects.
 This project is based off Sproutcore 1.4.5, with some additions.
 
+WARNING: 
+While as much as possible has been contained in modules, 
+SC-RUNTIME will add extra methods to a few basic prototypes.
+Without it, it cannot do the sugar it does.
+
+To the Array prototype it adds many extra methods, 
+from array parsers to observer related methods. 
+(see lib/runtime/array.js, lib/runtime/copyable.js and lib/runtime/enumerable.js)
+
+To the Function Prototype the methods 
+#property, #cacheable, #idempotent and #observes are added
+
+To the String prototype the methods #fmt, #loc and #w are added.
+
+To the Date object the method #now is added.
+
+
 How to use:
 
 if installed as global NPM module:
