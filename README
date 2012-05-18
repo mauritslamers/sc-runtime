@@ -1,0 +1,14 @@
+SC-RUNTIME
+
+A simple way of requiring SC for node projects.
+This project is based off Sproutcore 1.4.5, with some additions.
+
+How to use:
+
+if installed as global NPM module:
+
+var SC = require('sc-runtime'); 
+
+if installed as clone: 
+
+var SC = require('./sc-runtime');

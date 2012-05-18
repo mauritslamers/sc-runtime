@@ -1,0 +1,4 @@
+{ 
+  "name" : "sc-runtime",
+  "main" : "./lib/sc-runtime.js" 
+}
