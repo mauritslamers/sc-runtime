@@ -1,5 +1,5 @@
 { 
   "name" : "sc-runtime",
   "main" : "./lib/sc-runtime.js",
-  "version": "0.1"
+  "version": "0.1.0"
 }
